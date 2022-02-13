@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'lib-footer',
+  selector: 'lib-neoflora-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })

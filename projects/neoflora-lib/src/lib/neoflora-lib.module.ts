@@ -1,9 +1,7 @@
-import { NgModule } from '@angular/core';
-import { NeofloraLibComponent } from './neoflora-lib.component';
-import { FooterComponent } from './form/footer/footer.component';
-import { HeaderComponent } from './form/header/header.component';
-
-
+import {NgModule} from '@angular/core';
+import {NeofloraLibComponent} from './neoflora-lib.component';
+import {FooterComponent} from './form/footer/footer.component';
+import {HeaderComponent} from './form/header/header.component';
 
 @NgModule({
   declarations: [
@@ -17,4 +15,5 @@ import { HeaderComponent } from './form/header/header.component';
     NeofloraLibComponent
   ]
 })
-export class NeofloraLibModule { }
+export class NeofloraLibModule {
+}

@@ -1,21 +1,3 @@
-import {Injectable} from '@angular/core';
-
-@Injectable({
-  providedIn: 'root'
-})
-export class AppConstantsService {
-  private readonly _company =
-    new Company('Neoflora', 'Neoflora (Pty) Ltd', '76/01503/07',
-      'neoflora.png')
-
-  constructor() {
-  }
-
-  get company(): Company {
-    return this._company;
-  }
-}
-
 export class Company {
   private readonly _name: string;
   private readonly _legalName: string;
