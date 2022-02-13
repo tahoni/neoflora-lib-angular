@@ -1,0 +1,111 @@
+/* Global styling */
+@import "colors";
+
+/* Colours */
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+h1, h2, h3 {
+  color: $text-color;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $anchor-color;
+}
+
+input {
+  color: $text-color;
+}
+
+fa-icon {
+  color: $text-color;
+}
+
+.container {
+  background-color: $container-color;
+}
+
+.btn {
+  border-color: $button-border-color;
+}
+
+.btn:hover,
+.btn:active:hover,
+.btn:focus:hover {
+  background-color: $button-hover-color;
+  border-color: $button-border-color;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: $primary-button-color;
+}
+
+.btn-secondary,
+.btn-secondary:active,
+.btn-secondary:focus {
+  background-color: $secondary-button-color;
+}
+
+.image-icon {
+  color: $icon-color;
+  font-weight: lighter;
+}
+
+/* Sections */
+header, footer, main {
+  margin: 0;
+  padding: 0;
+  border-style: double;
+  border-width: thin;
+}
+
+.container {
+  min-height: 96vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding: 0;
+  align-items: stretch;
+}
+
+/* Text */
+p {
+  margin: 0.5rem 1rem;
+}
+
+/* Links */
+
+/* Forms */
+
+/* Static elements */
+
+/* Input elements */
+
+/* Buttons */
+.btn-primary {
+  font-weight: bold;
+}
+
+.btn-icon {
+  box-sizing: content-box;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0.5rem;
+  border-style: solid;
+  border-width: thin;
+}
+
+/* Logos */
+.logo {
+  box-sizing: border-box;
+  height: 136px;
+  padding: 0.33rem;
+  text-align: left;
+}
+
+/* Icons */

@@ -1,0 +1,38 @@
+/* Global styling */
+@import "colors";
+
+/* Watermark */
+.watermarked {
+  opacity: 0.9;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.watermarked::before {
+  display: block;
+  opacity: 0.1;
+  background-position: left;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-image: url("../img/logos/neoflora.png");
+}
+
+.watermarked::after {
+  display: block;
+  opacity: 0.0;
+  background-color: $accent-color;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
