@@ -3,6 +3,7 @@
   "dest": "../../dist/neoflora-lib",
   "assets": [
     "./assets/**/*.scss",
+    "./assets/**/*.png",
     "./.npmrc"
   ],
   "lib": {

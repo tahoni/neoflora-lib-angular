@@ -77,9 +77,8 @@ header, footer, main {
 
 .container {
   min-height: 96vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  padding: 0;
+  margin: 2vh 0;
+  padding: 0 !important;
   align-items: stretch;
 }
 
