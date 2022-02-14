@@ -4,7 +4,7 @@ import {AppConstants} from "../../shared/app-constants";
 import {Company} from "../../types/company";
 
 @Component({
-  selector: 'lib-neoflora-header',
+  selector: 'neoflora-lib-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
