@@ -3,16 +3,16 @@
 
 /* Fonts */
 body {
-  font-family: 'Noto Sans Display', sans-serif !important;
+  font-family: 'Noto Sans Display', sans-serif;
 }
 
 h1 {
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 /* Colours */
 body {
-  background-color: $background-color !important;
+  background-color: $background-color;
   color: $text-color;
 }
 
@@ -77,8 +77,8 @@ header, footer, main {
 
 .container {
   min-height: 96vh;
-  margin: 2vh 0;
-  padding: 0 !important;
+  margin: 0 auto;
+  padding: 0;
   align-items: stretch;
 }
 
