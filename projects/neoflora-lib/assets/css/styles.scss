@@ -1,9 +1,18 @@
 /* Global styling */
-@import "colors";
+@import "./colors";
+
+/* Fonts */
+body {
+  font-family: 'Noto Sans Display', sans-serif !important;
+}
+
+h1 {
+  font-weight: 600 !important;
+}
 
 /* Colours */
 body {
-  background-color: $background-color;
+  background-color: $background-color !important;
   color: $text-color;
 }
 
@@ -79,14 +88,6 @@ p {
   margin: 0.5rem 1rem;
 }
 
-/* Links */
-
-/* Forms */
-
-/* Static elements */
-
-/* Input elements */
-
 /* Buttons */
 .btn-primary {
   font-weight: bold;
@@ -107,5 +108,3 @@ p {
   padding: 0.33rem;
   text-align: left;
 }
-
-/* Icons */

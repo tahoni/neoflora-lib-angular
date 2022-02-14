@@ -1,18 +1,19 @@
 import {NgModule} from '@angular/core';
-import {NeofloraLibComponent} from './neoflora-lib.component';
 import {FooterComponent} from './form/footer/footer.component';
 import {HeaderComponent} from './form/header/header.component';
+import {TahoniLibModule} from "@tahoni/tahoni-lib";
 
 @NgModule({
   declarations: [
-    NeofloraLibComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
+    TahoniLibModule,
   ],
   exports: [
-    NeofloraLibComponent
+    FooterComponent,
+    HeaderComponent,
   ]
 })
 export class NeofloraLibModule {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
 import {AppConstants} from "../../shared/app-constants";
 import {Company} from "../../types/company";
@@ -9,10 +9,12 @@ import {Company} from "../../types/company";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  // @ts-ignore
+  @Input() heading: string;
+
   private router: Router;
 
   private _company: Company = AppConstants.company;
-  private _title = AppConstants.company.name;
 
   constructor(router: Router) {
     this.router = router;
@@ -27,13 +29,5 @@ export class HeaderComponent implements OnInit {
 
   get company(): Company {
     return this._company;
-  }
-
-  get title(): string {
-    return this._title;
-  }
-
-  set title(value: string) {
-    this._title = value;
   }
 }
