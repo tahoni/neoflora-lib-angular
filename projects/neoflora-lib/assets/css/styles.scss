@@ -1,12 +1,8 @@
 @import "./colors";
 
-/* Fonts */
+/* Font Family */
 body {
   font-family: 'Noto Sans Display', sans-serif;
-}
-
-h1 {
-  font-weight: 600;
 }
 
 /* Colours */
@@ -82,13 +78,25 @@ header, footer, main {
 }
 
 /* Text */
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
+}
+
 p {
+  font-weight: 400;
   margin: 0.5rem 1rem;
 }
 
 /* Buttons */
 .btn-primary {
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.btn-secondary {
+  font-weight: 500;
 }
 
 .btn-icon {
