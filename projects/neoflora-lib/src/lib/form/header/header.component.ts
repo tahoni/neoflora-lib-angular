@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
-import {AppConstants} from "../../shared/app-constants";
-import {Company} from "../../types/company";
+import {AppConstants} from "../../shared/app.constants";
+import {Company} from "../../types/company.type";
 
 @Component({
   selector: 'neoflora-lib-header',

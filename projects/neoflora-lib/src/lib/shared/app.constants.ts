@@ -1,4 +1,4 @@
-import {Company} from "../types/company";
+import {Company} from "../types/company.type";
 
 export class AppConstants {
   private static readonly _company =
