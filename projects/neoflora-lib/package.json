@@ -1,6 +1,6 @@
 {
   "name": "@tahoni/neoflora-lib",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Leoni Lubbinge <tahoni@gmail.com> (https://www.tahoni.info)",
   "peerDependencies": {
     "@angular/common": "^13.2.0",
