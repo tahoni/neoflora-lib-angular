@@ -1,8 +1,15 @@
+@import "./../../../../assets/css/fonts";
+
 /* Component */
 :host {
   display: block;
   padding: 0.5rem;
   margin: 0.5rem;
+}
+
+/* Font Family */
+h1, h2 {
+  font-family: $serif;
 }
 
 /* Text */

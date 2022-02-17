@@ -1,12 +1,9 @@
 @import "./colors";
+@import "./fonts";
 
 /* Font Family */
 body {
-  font-family: 'Noto Sans Display', sans-serif;
-}
-
-h1, h2 {
-  font-family: 'Noto Serif Display', serif;
+  font-family: $sans-serif;
 }
 
 /* Colours */
