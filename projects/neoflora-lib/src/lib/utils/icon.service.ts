@@ -4,6 +4,7 @@ import {
   faGenderless,
   faImage,
   faLeaf,
+  faCarrot,
   faMars,
   faSearch,
   faSeedling,
@@ -18,6 +19,7 @@ import {IconDefinition} from "@fortawesome/fontawesome-svg-core";
   providedIn: 'root'
 })
 export class IconService {
+  private readonly _hybridIcon = faCarrot;
   private readonly _descriptionIcon = faLeaf;
   private readonly _seedIcon = faGenderless;
   private readonly _offspringIcon = faSeedling;
@@ -31,6 +33,10 @@ export class IconService {
   private readonly _searchIcon = faSearch;
 
   constructor() {
+  }
+
+  get hybridIcon(): IconDefinition {
+    return this._hybridIcon;
   }
 
   get descriptionIcon(): IconDefinition {
