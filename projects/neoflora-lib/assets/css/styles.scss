@@ -23,6 +23,10 @@ a:active {
   color: $anchor-color;
 }
 
+a:hover {
+  color: $anchor-hover-color;
+}
+
 input {
   color: $text-color;
 }

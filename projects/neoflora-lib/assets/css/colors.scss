@@ -7,10 +7,11 @@ $icon-color: #816b9a;
 $accent-color: $text-color;
 
 $anchor-color: #2f0a38;
+$anchor-hover-color: #7f1b98;
 $primary-button-color: $accent-color;
 $secondary-button-color: $icon-color;
 $button-hover-color: #380b42;
-$button-border-color: $button-hover-color;
+$button-border-color: $anchor-color;
 
 $head-row-color: $accent-color;
 $even-row-color: $background-color;
