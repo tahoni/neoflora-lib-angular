@@ -1,11 +1,12 @@
 import {Injectable} from '@angular/core';
 import {
+  faCarrot,
   faEllipsisH,
   faGenderless,
   faImage,
   faLeaf,
-  faCarrot,
   faMars,
+  faPlus,
   faSearch,
   faSeedling,
   faStickyNote,
@@ -31,6 +32,7 @@ export class IconService {
   private readonly _multiplicationIcon = faTimes;
   private readonly _moreIcon = faEllipsisH;
   private readonly _searchIcon = faSearch;
+  private readonly _newIcon = faPlus;
 
   constructor() {
   }
@@ -81,5 +83,9 @@ export class IconService {
 
   get searchIcon(): IconDefinition {
     return this._searchIcon;
+  }
+
+  get newIcon(): IconDefinition {
+    return this._newIcon;
   }
 }
