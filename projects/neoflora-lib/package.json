@@ -8,6 +8,6 @@
     "@tahoni/tahoni-lib": "^2.1.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.5.0"
   }
 }
