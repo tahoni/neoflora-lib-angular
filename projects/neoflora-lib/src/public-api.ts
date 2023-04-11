@@ -5,8 +5,8 @@
 export * from './lib/neoflora-lib.module';
 
 /* Components */
-export * from './lib/form/header/header.component';
-export * from './lib/form/footer/footer.component';
+export * from './lib/pages/header/header.component';
+export * from './lib/pages/footer/footer.component';
 
 /* Services */
 export * from './lib/utils/icon.service';

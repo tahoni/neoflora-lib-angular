@@ -13,7 +13,6 @@
     "sourceMap": true,
     "paths": {
       "neoflora-lib": [
-        "dist/neoflora-lib/neoflora-lib",
         "dist/neoflora-lib"
       ]
     },
